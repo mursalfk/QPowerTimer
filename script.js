@@ -484,7 +484,7 @@ function handlePointer() {
 
         lastCell = [i, j];
 
-        return i = li && j === lj;
+        return i === li && j === lj;
     };
 
     function print(isMove, {
